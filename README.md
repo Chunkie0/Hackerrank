@@ -3,7 +3,7 @@
 
 ### Python If-Else
 
-Prints out 'Weird' if the number is odd and between the range of 6 and 21, otherwise 'Not Weird'.
+Prints out 'Weird' if the number is odd and between the range of 6 and 21, otherwise 'Not Weird'. Link: [Click Me](https://www.hackerrank.com/challenges/py-if-else/problem)
 ```
 n = int(input("Write a digit: "))
 if(n % 2 != 0 or n in range(6, 21)):
@@ -14,7 +14,7 @@ else:
 
 ### Arithmetic Operatotrs
 
-Performs arithmetic calcutions with +,-, * and prints them out
+Performs arithmetic calcutions with +,-, * and prints them out. Link: [Click Me](https://www.hackerrank.com/challenges/python-arithmetic-operators/problem)
 ```
 print("Write a and b numbers to perfom arithmetic calculations:")
 a = int(input("a: "))
@@ -24,7 +24,7 @@ print("{:d}\n{:d}\n{:d}".format(a+b,a-b,a*b))
 
 ### Python Division
 
-Performs divisions
+Performs divisions. Link: [Click Me](https://www.hackerrank.com/challenges/python-division/problem)
 ```
 print("Write a and b numbers to perfom division calculations:")
 a = int(input("a: "))
@@ -32,9 +32,9 @@ b = int(input("b: "))
 print("{:d}\n{:f}".format(a//b,a/b))
 ```
 
-### Loop
+### Loops
 
-Will loop through n numbers starting from 0 and perfrom power on each and print them out
+Will loop through n numbers starting from 0 and perfrom power on each and print them out. Link: [Click Me](https://www.hackerrank.com/challenges/python-loops/problem)
 ```
 n = int(input("Write a number: "))
 for i in range(n):
@@ -43,7 +43,7 @@ for i in range(n):
 
 ### Write A Function
 
-Finds out if the year is leap year or not
+Finds out if the year is leap year or not. Link: [Click Me](https://www.hackerrank.com/challenges/write-a-function/problem)
 ```
 def is_leap(year):
     leap = False
@@ -60,7 +60,7 @@ print(is_leap(int(input("Write a year to find out if its a leap year: "))))
 
 ### Print Function
 
-Prints numbers from 0 to n
+Prints numbers from 0 to n. Link: [Click Me](https://www.hackerrank.com/challenges/python-print/problem)
 ```
 def is_leap(year):
     leap = False
@@ -77,7 +77,7 @@ print(is_leap(int(input("Write a year to find out if its a leap year: "))))
 
 ### Sorting: Bubble Sort
 
-Counts how many times bubble sort will perform sorting
+Counts how many times bubble sort will perform sorting. Link: [Click Me](https://www.hackerrank.com/challenges/ctci-bubble-sort/)
 ```
 def countSwaps(a):
     counter = 0
