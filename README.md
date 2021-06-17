@@ -14,7 +14,7 @@ else:
 
 ### Arithmetic Operatotrs
 
-Performs arithmetic calcutions with +,-, *
+Performs arithmetic calcutions with +,-, * and prints them out
 ```
 print("Write a and b numbers to perfom arithmetic calculations:")
 a = int(input("a: "))
